@@ -1,0 +1,7 @@
+-#!/bin/sh     
+ssh ubuntu@ip-172-31-24-246 <  cd /http://3.92.66.52:8080/me/my-views/view/all/job/Month_2/
+ git pull      
+ npm install --production      
+ pm2 restart all
+ exit      
+EOF
