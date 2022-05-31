@@ -1,5 +1,5 @@
 #!/bin/sh     
-ssh ubuntu@ip-172-31-24-246 cd /Month_2
+ssh ubuntu@ip-172-31-24-246 <  cd /Month_2
  git pull origin main
  npm install --production      
  pm2 restart all
